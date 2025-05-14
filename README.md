@@ -20,7 +20,6 @@ Nuxt 3、GSAP、AOS、UnoCSS、Three.js、TypeScript
 
 ## 📁 專案結構簡介
 
-```
 ├── assets/          # 靜態資源
 │ ├── stylesheets/   # CSS 設定
 ├── components/      # 元件
@@ -36,7 +35,6 @@ Nuxt 3、GSAP、AOS、UnoCSS、Three.js、TypeScript
 ├── plugins/         # 第三方套件
 ├── public/          # 字型、圖片、3D 模型
 └── README.md        # 專案說明
-```
 
 ---
 
