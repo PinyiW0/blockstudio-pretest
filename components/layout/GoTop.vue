@@ -21,9 +21,9 @@ onUnmounted(() => {
 <template>
   <transition name="fade">
     <button v-if="isVisible" @click="scrollToTop" title="回到最上方"
-      class="z-100 fixed right-30px bottom-20 md:(right-55px bottom-25) flex flex-col items-end gap-4px bg-transparent border-0 cursor-pointer focus-visible:outline-#E01111 group">
+      class="z-80 fixed right-30px bottom-20 md:(right-55px bottom-25) flex flex-col items-end gap-4px bg-transparent border-0 cursor-pointer focus-visible:outline-#E01111 group">
       <div
-        class="w-15 h-15 rounded-full border-t-(1px solid primary) border-l-(1px solid primary/50) border-r-(1px solid primary/50) bg-gradient-to-b from-primary/80 to-primary-120/70  duration-300 group-hover:bg-primary-60/80">
+        class="w-15 h-15 rounded-full border-t-(1px solid primary) border-l-(1px solid primary/50) border-r-(1px solid primary/50) bg-gradient-to-b from-primary/80 to-primary-120/70 duration-300 group-hover:bg-primary-60/80">
       </div>
       <p class="absolute top-3 left-1/2 -translate-x-1/2 text-4 text-white font-bold tracking-wider">TOP</p>
       <div class="absolute -bottom-5 left-1/2 transform -translate-x-1/2 -rotate-70deg">

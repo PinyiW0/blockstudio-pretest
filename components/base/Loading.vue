@@ -6,7 +6,7 @@ const show = useState<boolean>('isLoading', () => false)
   <teleport to="body">
     <transition name="fade">
       <div v-if="show" @wheel.prevent @touchmove.prevent @keydown.prevent
-        class="z-80 fixed inset-0 bg-black flex items-center justify-center">
+        class="z-100 fixed inset-0 bg-black flex items-center justify-center">
         <div class="flex flex-col items-center justify-center gap-7">
           <img src="/logo/logo-red.svg" alt="ZOENW" class="w-fit h-fit object-contain">
           <div class="relative w-35 h-2px bg-white">
