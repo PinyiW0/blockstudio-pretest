@@ -1,0 +1,7 @@
+.noise {
+  background: linear-gradient(#000a, #000a),
+    repeating-radial-gradient(#000 0 0.0001%, #fff 0 0.0002%) 50% 0 / 2500px 2500px,
+    repeating-conic-gradient(#000 0 0.0001%, #fff 0 0.0002%) 60% 60% / 2500px 2500px;
+  background-blend-mode: normal, difference;
+  opacity: 0.15;
+}

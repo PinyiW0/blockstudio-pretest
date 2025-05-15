@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/eric-meyer.css',
     '@/assets/stylesheets/reset.css',
+    '@/assets/stylesheets/noise.css',
     '@/assets/stylesheets/transition.css',
     'aos/dist/aos.css',
   ],

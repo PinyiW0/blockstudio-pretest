@@ -137,6 +137,7 @@ onUnmounted(() => {
         </div>
       </ClientOnly>
     </div>
+    <div class="noise absolute top-0 left-0 w-full h-full" />
   </section>
 
   <!-- Service Area -->
