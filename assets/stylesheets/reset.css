@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
-*, body {
-  font-family: 'Cirka', sans-serif;
-  src: url('/fonts/Cirka-Bold.otf') format('opentype');
-  font-weight: bold;
+
+@font-face {
+  font-family: 'Cirka';
+  src: url('/fonts/Cirka-Light.otf') format('opentype');
   font-style: normal;
   font-display: swap;
+}
+
+*, body {
+  font-family: 'Cirka', 'Noto Serif TC', sans-serif;
   box-sizing: border-box;
 }
